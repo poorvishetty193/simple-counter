@@ -153,3 +153,14 @@ button img {
   transform: scale(1.08);
   box-shadow: 0 0 12px rgba(247, 35, 35, 0.6);
 }
+
+/* Small screens adjustments */
+@media (max-width: 400px) {
+  .counter-card {
+    gap: 14px;
+  }
+
+  .buttons {
+    gap: 20px;
+  }
+}
