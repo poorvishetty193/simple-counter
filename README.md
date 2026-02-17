@@ -1,6 +1,6 @@
 # 🧮 Simple Counter App
 
-A modern and minimal **counter application** built using **HTML, CSS, and JavaScript** with a sleek dark UI inspired by a Figma design.  
+A modern and minimal **counter application** built using **HTML, CSS, and JavaScript** with a sleek dark UI.  
 
 The app allows users to increment, decrement, and reset a counter with smooth hover effects and a responsive layout.
 
