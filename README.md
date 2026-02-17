@@ -21,10 +21,8 @@ The app allows users to increment, decrement, and reset a counter with smooth ho
 
 ## 🎨 UI Preview
 
-```
-![App Screenshot](assets/simple-counter.png)
 
-```
+<img width="1613" height="818" alt="simple-counter" src="https://github.com/user-attachments/assets/25367ca0-d2b1-4717-bfaa-3a7b453157ce" />
 
 ---
 
