@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: "Irish Grover", cursive;
+}
+
+body {
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Background image */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+
+/* Circular counter */
+.counter-card {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: #1e1e1e;
+  border: 3px solid #aaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  z-index: 1;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
+}
+
+/* Display */
+.display {
+  background: #5a5a5a;
+  padding: 12px 36px;
+  border-radius: 12px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #f4f2f2;
+}
+
+/* Buttons row */
+.buttons {
+  display: flex;
+  gap: 90px;
+}
+
+/* Button styling */
+button {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.15s ease;
+  font-weight: 400;
+}
+
+.plus {
+  width: 70px;
+  height: 70px;
+  font-size: 55px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.plus:hover {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transform: scale(1.08);
+  box-shadow: 0 0 12px rgba(248, 248, 248, 0.6);
+}
+
+.minus {
+  width: 70px;
+  height: 70px;
+  font-size: 66px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.minus::before {
+  content: "-";
+  position: relative;
+  top: -4px;
+}
+
+.minus:hover {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transform: scale(1.08);
+  box-shadow: 0 0 12px rgba(248, 248, 248, 0.6);
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Button icons */
+button img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Reset button */
+.reset {
+  background: #ff3b3b;
+  width: 66px;
+  height: 66px;
+}
+
+.reset img {
+  width: 26px;
+}
+
+.reset:hover {
+  background: #ff2a2a;
+  color: rgb(0, 0, 0);
+  transform: scale(1.08);
+  box-shadow: 0 0 12px rgba(247, 35, 35, 0.6);
+}
